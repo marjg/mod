@@ -39,3 +39,4 @@ if st.button('Moderate'):
     json_output = json.dumps(serialized_output, indent=2, ensure_ascii=False)
     st.json(json_output)
 st.header("Welcome to Marjorie's World")
+st.radio("Pick one", ["cats", "dogs"])
